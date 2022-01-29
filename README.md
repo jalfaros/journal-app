@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Journal App
 
-In the project directory, you can run:
+Aplicación desarrollada con la librería de React, utilizando el patrón de diseño Redux como manejador de estados y Firebase como base de datos, además de los distintos customs
+hooks creados y helpers que realizan una abstracción del código y minimiza la repetición de código.
 
-### `yarn start`
+La principal función de la aplicación es crear notas estilo diario, lo cual le brinda al usuario una cronología en temas de recordatorios.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Capturas de la aplicación
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Autenticación del usuario
+Se cuenta con la protección de rutas públicas y privadas, mediante la utilización de <strong>React Router Dom</strong>, esto permite que se mantenga la seguridad en la aplicación y solo se permita ingresar al usuario si cuenta con una cuenta válida.
+A su vez, la integración con <strong>Firebase</strong> permite que se realicen autenticaciones con providers externos, tales como Google, GitHub, Apple, entre otros.
 
-### `yarn build`
+<p align='center'>
+<img src="https://res.cloudinary.com/dfnkcacaz/image/upload/v1643493880/auth_fzzhf7.jpg" width="900">  
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pantalla principal
+Se muestra las notas creadas con anterioridad por el usuario y además de la capacidad de crear nuevas.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center"> 
+ <img src="https://res.cloudinary.com/dfnkcacaz/image/upload/v1643494440/Captura_de_pantalla_2022-01-29_161347_gy7sfg.jpg" width="900">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Recursos Externos
+- Cloudinary (host de fotografías)
+- Firebase-Firestore (base de datos)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
