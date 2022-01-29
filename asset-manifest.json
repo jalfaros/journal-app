@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jalfaros/journal-app/static/css/main.74ba49e3.chunk.css",
+    "main.js": "/jalfaros/journal-app/static/js/main.965f47dc.chunk.js",
+    "main.js.map": "/jalfaros/journal-app/static/js/main.965f47dc.chunk.js.map",
+    "runtime-main.js": "/jalfaros/journal-app/static/js/runtime-main.c679da9d.js",
+    "runtime-main.js.map": "/jalfaros/journal-app/static/js/runtime-main.c679da9d.js.map",
+    "static/js/2.1c69b8c0.chunk.js": "/jalfaros/journal-app/static/js/2.1c69b8c0.chunk.js",
+    "static/js/2.1c69b8c0.chunk.js.map": "/jalfaros/journal-app/static/js/2.1c69b8c0.chunk.js.map",
+    "index.html": "/jalfaros/journal-app/index.html",
+    "precache-manifest.55ac557f81291e1b9d1ab9b257c38fd2.js": "/jalfaros/journal-app/precache-manifest.55ac557f81291e1b9d1ab9b257c38fd2.js",
+    "service-worker.js": "/jalfaros/journal-app/service-worker.js",
+    "static/css/main.74ba49e3.chunk.css.map": "/jalfaros/journal-app/static/css/main.74ba49e3.chunk.css.map",
+    "static/js/2.1c69b8c0.chunk.js.LICENSE.txt": "/jalfaros/journal-app/static/js/2.1c69b8c0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c679da9d.js",
+    "static/js/2.1c69b8c0.chunk.js",
+    "static/css/main.74ba49e3.chunk.css",
+    "static/js/main.965f47dc.chunk.js"
+  ]
+}
